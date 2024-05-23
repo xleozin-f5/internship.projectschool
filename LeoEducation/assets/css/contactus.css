@@ -1,0 +1,11 @@
+body, html {
+    height: 100%;
+    margin: 0; /* Remover margens padrão */
+    overflow: hidden; /* Remover barras de rolagem */
+}
+
+.contact-section {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}

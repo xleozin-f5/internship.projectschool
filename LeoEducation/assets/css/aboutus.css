@@ -1,0 +1,36 @@
+/* General Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    overflow-x: hidden; /* Hide horizontal overflow */
+}
+
+/* About Us Section */
+.about-section {
+    padding: 80px 0;
+    min-height: calc(100vh - 56px); /* Adjust based on your navbar height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-section h2 {
+    font-size: 2.25rem; /* 36px */
+    font-weight: bold;
+    margin-bottom: 2rem; /* 30px */
+}
+
+.about-section p {
+    font-size: 1.125rem; /* 18px */
+    line-height: 1.6;
+    color: #555; /* Darkened color for better readability */
+}
+
+/* Video Styling */
+.embed-responsive-16by9 {
+    margin-top: 2rem; /* Add some margin at the top */
+}
+.embed-responsive-16by9 video {
+    border: 1px solid #ddd; /* Add a subtle border for separation */
+    border-radius: 5px; /* Add border radius for rounded corners */
+}
